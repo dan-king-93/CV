@@ -31,6 +31,15 @@ a {
   font-family: Georgia;
 }
 
+/* This is an example of using a pseudo class, which allows you to play with the appearance in given states*/
+a:hover {
+  color: darkgreen;
+}
+
+a:active {
+  color: green;
+}
+
 form {
   font-family: Georgia;
 }
@@ -44,3 +53,11 @@ hr {
 li {
   font-family: Georgia;
 }
+
+/* Note you can apply styles to specific classes using this method. You also have the method of using IDs, using the # syntax in CSS */
+.Circular {
+  border-radius: 100%;
+}
+
+/* When using CSS, inline and internal CSS override external CSS. CSS properties which are more specific override less specific properties. E.g. a style set on a specific class / ID
+will be used above a style set generically over an element */
