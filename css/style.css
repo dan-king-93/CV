@@ -1,0 +1,40 @@
+
+body {
+  background-color: #fafafa;
+}
+
+h1 {
+  color: #004a7c;
+  font-family: Georgia;
+}
+
+h3 {
+  color: #004a7c;
+  font-family: Georgia;
+}
+
+p {
+  font-family: Georgia;
+}
+
+td {
+  font-family: Georgia;
+}
+
+th {
+  font-family: Georgia;
+}
+
+a {
+  font-family: Georgia;
+}
+
+form {
+  font-family: Georgia;
+}
+
+hr {
+  border-style: none;
+  height: 1px;
+  background-color: grey;
+}
