@@ -19,10 +19,12 @@ p {
 
 td {
   font-family: Georgia;
+  vertical-align: bottom;
 }
 
 th {
   font-family: Georgia;
+  text-align: left;
 }
 
 a {
@@ -37,4 +39,8 @@ hr {
   border-style: none;
   height: 1px;
   background-color: grey;
+}
+
+li {
+  font-family: Georgia;
 }
